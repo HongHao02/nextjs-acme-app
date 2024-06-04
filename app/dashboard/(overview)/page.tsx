@@ -6,8 +6,6 @@ import { Suspense } from 'react';
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardSkeleton } from '@/app/ui/skeletons';
 
 export default async function DashboardPage() {
- 
-
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
